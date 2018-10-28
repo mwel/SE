@@ -1,0 +1,72 @@
+SE2_Wellenhofer
+
+Aufgabe 1. 
+Ein Modell ist ein Produkt des Modellierungsvorgangs. Es beschreibt tatsächliche oder gedachte Gegenstände oder Konzepte und deren Beziehungen.
+Es gibt Modelle der Analyse und Modelle des Entwurfs.
+Modelle der Analyse und des Entwurfs bestehen aus miteinander verzahnten statischen und dynamischen Modellen. Statische Modelle beschreiben die Bausteine eines Systems und wie sie zusammengesetzt sind. Dynamische Modelle beschreiben die Zusammenarbeit der Bausteine, also deren Verhalten und die Botschaften, die Verhalten auslösen. 
+
+Aufgabe 2. 
+
+
+Aufgabe 3. 
+Es wurde das Muster Exemplartyp verwendet, um die Klassen Hochschule, Vorlesung und Hörsaal zu modellieren. Für die Klassen Person, Dozent und Student eignete sich das Muster "Wechselnde Rollen".
+
+Aufgabe 4. 
+Ein Kreis ist kein Punkt. Er erbt zwar die x und y Koordinaten von diesem, kann aber nicht als Punkt instanziert werden.
+
+
+Aufgabe 5. 
+
+UML-Zustandsdiagramm: In Zustandsdiagrammen werden Aktivitäten als Übergänge zwischen Zuständen modelliert. Es wird ein Status modelliert, der Fokus jedoch nicht auf die Dynamik gelegt.
+
+UML-Aktivitätsdiagramm: In einem Aktivitätsdiagramm werden Aktivitäten in ihrer möglichen Abfolge und ihrer Zuordnung zu Akteuren modelliert. Es geht also nicht mehr primär um die Klassen, sondern um deren Interaktion miteinander.
+
+Aufgabe 6. 
+Zuerst muss entschieden werden, um welche prinzipielle Art der Anwendung es sich handelt. Anschließend sind die Inhalte und Verteilung der Inhalte zu überlegen, die so genannte Informationsarchitektur. Auf diesen Überlegungen aufbauend werden erst dann die äußere Struktur und das äußere Erscheinungsbild entworfen. Grundlage für diese Arbeiten sind die Anforderungen und die bisherigen Ergebnisse der Analyse.
+Auf dieser Basis kann über Navigation, primäre und sekundäre Dialoge nachgedacht werden bevor ein Bedienkonzept erstellt wird. Es können objektorientierte oder anwendungsfallorientierte Bedienkonzepte erstellt werden. Schließlich fasst der Dialogblaufplan alle konzipierten Dialoge in einem Plan zusammen. 
+
+Aufgabe 7. 
+Aufgabenangemessenheit:
+Der Dialog unterstütz den Nutzer nicht. Im Gegenteil. Er erzeugt eher ein Problem.
+
+Selbstbeschreibungsfähigkeit und Fehlertoleranz:
+Es wird nicht spezifiziert was für ein Fehler ausgetreten ist. "Ein" eingegebener Wert könnte alles sein. Es wird weder angegeben, welcher Wert falsch war, noch wie dieser beschaffen zu sein hat, um den Kriterien des Feldes zu entsprechen.
+
+Steuerbarkeit:
+Der Nutzer hat jetzt nur die Möglichkeit, den Dialog "wegzuklicken". Das bringt ihn in keinster Weise weiter. 
+
+Individualisierbarkeit:
+Der Dialog ist absolut generisch und in keiner Weise individualisierbar.
+
+Lernförderlichkeit:
+Der Nutzer wird nicht zur richtigen Lösung oder Besserungs anghalten.
+
+Aufgabe 8. 
+Die Grundlage für die Auswahl einer Softwarearchitektur für eine Aufgabe sind die Anforderungen und Randbedingungen
+
+Aufgabe 9. 
+1. Client-Server
+2. Peer-to-Peer
+
+Aufgabe 10. 
+Fassade
+
+
+Aufgabe 11. 
+Iterator, weil hier traversiert werden soll und sich das Iterator Muster am besten dazu eignet.  
+
+Aufgabe 12. 
+Als Kopplung werden unerwünschte Querbeziehungen zwischen Klassen bzw. der unerwünschte Zugriff auf private Elemente einer anderen Klasse bezeichnet. Es wird zwischen Content-Kopplung, Common-Kopplung, Stamp-Kopplung, Data-Kopplung und Routine-Call-Kopplung unterschieden.
+
+
+Aufgabe 13. 
+
+
+Aufgabe 14. 
+Mit „Refactoring“ bezeichnet man den systematischen Weg, den Entwurf bestehender Software zu verbessern, ohne dabei die Funktionalität zu verändern. Refactoring besteht aus mehreren Schritten. Im ersten Schritt werden zunächst problematische Stellen identifiziert. Daraufhin wird für jede Stelle ein geeignetes Refactoring ausgesucht und angewandt. Automatisiertes Testing ist integraler Bestandteil des Refactorings, da nur so eine kontinuierliche Integrität des Codes gewährleistet werden kann.
+
+Aufgabe 15. 
+1. Funktionaler Zusammenhalt (Funktionaler Zusammenhalt bedeutet, dass ähnliche Funktionalität in gleichen Softwareteilen implementiert wird)
+2. Schichtenzusammenhalt (Teile, die ähnliche Services für andere Teile bereitstellen)
+3. Kommunikativer Zusammenhalt (Teile, die auf gleichen Daten operieren, gehören)
+4. Utility Zusammenhalt (Utilitys (engl. für Dienstprogramm) sind Teile der Software, die ähnliche Funktionalität bereitstellen und sich sonst aber nicht logisch z.B. in Schichten ordnen lassen, weil sie beispielsweise von mehren Teilen genutzt werden.)

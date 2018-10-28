@@ -1,0 +1,103 @@
+SE1_Wellenhofer
+
+Aufgabe 1. 
+Die Ziele ingenieurmäßigen Vorgehens liegen in der systematischen und erfahrungsbasierten Schaffung von wirtschaftlichen Mehrwerten in diesem Fall in Form von Software-Projekten. Das Hauptziel ist erfüllt, wenn ein kontinuierlicher, paretoeffizienter Mehrwert geschaffen wurde.
+
+Aufgabe 2. 
+Bei der Entwicklung des GCC handelt es sich um eine internationale, kontinuierliche open source Standardsoftware, die einer beliebig breiten Nutzergruppe frei zugänglich ist. Es bestehen zahlreiche Anwendungsfälle. Die Software ist nie von einem Kunden bestellt oder nur für einen bestimmten Zweck implementiert worden.
+
+Der GCC wird von einer Vielzahl von Anwendungen genutzt und muss all derer Anforderungen gerecht werden - auch wenn es heutzutage aufgrund der Mächtigkeit des Compilers eher der Fall ist, dass neue Programme sich an diesen etablierten Standard anpassen.
+
+Keiner weiß, wie viele Menschen zwischen 1987 und heute am GCC gearbeitet haben, aber das Projekt kann mit Fug und Recht als großes Projekt eingestuft werden.
+
+Da es sich hier um einen Compiler handelt, sprechen wir hier von reiner Softwaretechnik.
+
+Näherungslösungen sind für einen Compiler wie man als Informatikstudent immer wieder schmerzlich feststellen darf, keine Option.
+
+Der Compiler hat direkte Auswirkung auf die Performance eines Programms, weshalb ich argumentieren würde, dass eine erhöhte Effizienz sehr vielen Programmen zugute käme und daher hier als kritisch anzusehen ist.
+
+Gleiches gilt für die Verlässlichkeit. Es ist für einen Compiler undenkbar, einen Fehler zu machen, da alle betroffenen Programme somit fatale Fehlfunktionen hätten.
+
+Die Zukunftsfähigkeit des GCC ist durch seine open source Eigenschaft und die globale Teilnahme der zahlreichen Entwickler, die am Projekt beteiligt sind, gesichert.
+
+Aufgabe 3. 
+1. Anforderungen
+2. Analyse
+3. Entwurf
+4. Realisierung
+5. Test
+6. Einführung / Wartung
+
+Aufgabe 4. 
+a) Wartung
+b) Anforderungen
+c) Anforderungen
+
+Aufgabe 5. 
+1. Prüfung des Vertragswerks. Liegt eine entsprechende Gewehrleistung vor? 
+Prüfung des Lasten- und Pflichtenhefts. Wurde das Gewerk so geliefert, wie anfangs vereinbart? 
+2. Interviews mit kritischen Individuen zur Handhabung und Problemen mit der Software.
+3. Aufnahme, Priorisierung und Schätzung von Change Requests
+5. Verhandlung über Nachbudgetierung zur Umsetzung der CR
+6. Anberaumung zusätzlicher Schulungen
+7. Umsetzung der CR möglichst innerhalb des Zeitraums
+
+Grundsätzlich ist hier vom Management zunächst eine Business-Entscheidung zu fällen, ob eine Abwehrhaltung oder eine kooperative Haltung gefahren werden soll. Geht es in dieser Phase um Schadenbegrenzung, so ist der Fall klar und man wird nur soweit gehen, wie die Gewehrleistung es verlangt. Möchte man den Kunden halten und das Folgeprojekt einsammeln, so ist es ratsam, den Kunden in dieser schwierigen Phase zu unterstützen und sich den Fehler einzugestehen, dass man die Belegschaft kulturell und inhaltlich nicht mit auf die Journey mitgenommen hat und das jetzt im Nachgang aufräumen muss. Dazu gehören Schulungen, Workshops, Interviews, Change Requests, meistens eine Nachbudgetierung und ein release basierter Retainer.
+
+Aufgabe 6. 
+Das Ermitteln von Anforderungen erfolgt in drei Schritten: 
+1. Domänenanalyse
+2. Vision&Scope
+3. Requirements
+
+Aufgabe 7. 
+PersonalConstructionPlus ist eine professionelle Bilderkennungssoftware für Maschinenbauer, die es dem Anwender ermöglicht, Skizzen und Handzeichnungen von klassischen Formaten schnell und einfach in professionelle CAD-Dateien zu konvertieren, zu korrigieren und zu bearbeiten. Anders als klassische Scan-programme, verfügt PersonalConstructionPlus über automatisierte Optimierungsalgorithmen, die direkt nach dem scannen Verbesserungen und Korrekturen zur Übernahme vorschlagen. So schafft es PersonalConstructionPlus nicht nur, Ihre technischen Zeichnungen im Handumdrehen zu digitalisieren, sondern übernimmt gleichzeitig auch die erste Korrektur für Sie. Effizienz gesteigert und zeichnerische Fehlerquote gesenkt.
+
+Aufgabe 8. 
+Eine Geschäftsanforderung basiert auf dem aus dem Produkt resultierenden Nutzen für das Business. Das Produkt muss sie erfüllen, um einen finanziellen oder businessrelevanten Vorteil zu schaffen.
+Eine Nutzeranforderung kommt von Seiten des Nutzers. Ihre Erfüllung kommt dem Nutzer des Produkts / der Software zu Gute. 
+Beide Anforderungsarten können Hand in Hand gehen, müssen dies allerdings nicht. Dabei ist es oft zu beobachten, dass Nutzeranforderungen aus profitgetriebenen Gründen Geschäftsanforderungen weichen müssen.
+
+Aufgabe 9. 
+a) Funktional.  
+b) Funktional.
+c) Nicht funktional.
+d) Funktional. 
+
+Aufgabe 10. 
+Änderung von Kundenstammdaten
+- Mitarbeiter identifiziert sich
+- Mitarbeiter gibt eine Kundennummer ein
+- Mitarbeiter ändert einen Datensatz
+- Mitarbeiter legt einen neuen Datensatz an
+
+Aufgabe 11. 
+- Geld abheben
+Nr. GA-01
+Vorbedingung: Kunde hat eine Bankkarte. Bankautomat ist eingeschaltet.
+Nachbedingung: Die Transaktion wird  DB gespeist.
+
+Vorhaben des Anwenders
+- Kunde möchte Bargeld abheben.
+- Kunde führt seine Karte in den Bankautomaten ein.
+- Kunde gibt seine PIN korrekt ein
+- Kunde wählt einen Geldbetrag und eine Stückelung aus.
+- Kunde entnimmt seine Karte
+- Kunde entnimmt sein Geld
+
+Verantwortlichkeit des Systems
+- System nimmt eine Karte entgegen.
+- System verifiziert die Echtheit der Karte, deren Zugehörigkeit zu einem bestimmten Geldinstitut und die Identität des Kartenhalters.
+- System fragt nach der PIN des Nutzers
+- System registriert die Korrektheit des PINs zur bereitgestellten Karte und zeigt Optionen für Transaktionen an.
+- System registriert die Anfrage nach einer Barauszahlung.
+- System fragt nach der Höhe der Auszahlung.
+- System fragt Deckung des Kundenkontos bei der INT Banking Core DB an.
+- System bekommt von der DB positive Rückmeldung.
+- System prüft vorhandene Geldreserven im Safe und bietet dementsprechende Stückelungen an.
+- System nimmt den Wunsch des Kunden entgegen und stellt die Stückelung zusammen.
+- System wirft die Kundenkarte aus und stellt sicher, dass diese entnommen wird.
+- System öffnet das Geldfach und gibt somit die bereitgestellt Stückelung frei.
+- System registriert, dass das Geld aus dem Fach entnommen wurde und schließt dieses.
+- System logt die Buchung mit den entsprechenden Kundendaten und der Höhe des Betrags.
+- System synchronisiert die Transaktion mit der INT Banking Core DB.
